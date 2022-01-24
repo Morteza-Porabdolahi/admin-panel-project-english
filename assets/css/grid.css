@@ -152,6 +152,7 @@
     /* position: fixed; */
     top: 3.5rem;
     right: 0;
+    bottom: 0;
     z-index: 10000000;
 }
 .sidebar-wrapper{
