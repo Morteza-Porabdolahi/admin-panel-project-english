@@ -151,8 +151,8 @@
     height: calc(100vh - 3.5rem);
     position: fixed;
     top: 3.5rem;
-    right: 0;
     bottom: 0;
+    left: 0;
     z-index: 10000000;
 }
 .sidebar-wrapper{
@@ -268,14 +268,15 @@
         z-index: 9;
         height: calc(100% - 3.5rem);
         position: fixed;
-        top: 3.5rem;
         right: 0;
+        top: 3.5rem;
     }
     .sidebar-container{
         position: relative;
         width: 13rem;
         height: 100%;
         top: 0;
+        right: 0;
     }
     .main-body{
         width: 100%;
